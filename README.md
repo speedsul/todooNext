@@ -11,7 +11,7 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [https://todoo-next-speed-dr97y2o11-speedtodo.vercel.app/](https://todoo-next-speed-dr97y2o11-speedtodo.vercel.app/) Opem remote from from vercel.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
