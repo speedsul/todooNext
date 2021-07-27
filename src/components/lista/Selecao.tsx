@@ -1,3 +1,5 @@
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 interface SelecaoPrps {
     valor: boolean
 }
@@ -12,7 +14,10 @@ const gradient = props.valor ? 'bg-gradient-to-br from-blue-400 to-purple-500' :
         border border-gray-400
         w-7 text-white
         ${gradient}
-        `}>{props.valor ? 'X' : '' }</div>
+        `}>{props.valor 
+            ? <FontAwesomeIcon icon={faCheck} /> 
+            : '' 
+            }</div>
     )
 
 }

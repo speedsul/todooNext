@@ -3,7 +3,7 @@ import ListaItem from './ListaItem';
 import ListaRodape from "./ListaRodape";
 
 interface ListaProps {
-    tarefas: ListaTarefas
+    tarefas: ListaTarefas,
     mudou: (tarefas: ListaTarefas) => void
 }
 export default function Lista (props: ListaProps){
